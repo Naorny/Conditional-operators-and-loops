@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Task3 {
     public static void main(String[] args) {
-        // Enter three numbers from the keyboard and display them in descending order.
+        //3. Enter three numbers from the keyboard and display them in descending order.
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter the 1st number: ");
         int a = scan.nextInt();
