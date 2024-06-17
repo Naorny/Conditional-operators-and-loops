@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2e376b1-99ad-45eb-8525-69730413b332" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/com/Task4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/com/Task5and6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,7 @@
     "Application.Task2.executor": "Run",
     "Application.Task3.executor": "Run",
     "Application.Task4.executor": "Run",
+    "Application.Task5and6.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -48,7 +47,7 @@
     "last_opened_file_path": "C:/Users/huliaieva/IdeaProjects/ConditionalOperators"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Task4">
+  <component name="RunManager" selected="Application.Task5and6">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.com.Main" />
       <module name="ConditionalOperators" />
@@ -101,8 +100,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task5and6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.com.Task5and6" />
+      <module name="ConditionalOperators" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task5and6" />
         <item itemvalue="Application.Task4" />
         <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Task2" />
