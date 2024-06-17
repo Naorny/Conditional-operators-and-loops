@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b2e376b1-99ad-45eb-8525-69730413b332" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/Task7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/Task7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
     "last_opened_file_path": "C:/Users/huliaieva/IdeaProjects/ConditionalOperators"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Task7">
+  <component name="RunManager" selected="Application.Task5and6">
     <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.com.Task2" />
       <module name="ConditionalOperators" />
@@ -117,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task7" />
         <item itemvalue="Application.Task5and6" />
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Task7" />
         <item itemvalue="Application.Task4" />
         <item itemvalue="Application.Task3" />
-        <item itemvalue="Application.Task2" />
       </list>
     </recent_temporary>
   </component>

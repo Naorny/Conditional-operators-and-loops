@@ -17,10 +17,11 @@ public class Task5and6 {
 
         if (age < 18) {
             System.out.println("Grow up more");
-        } else if (age >= 20) {
+        }
+        if (age >= 20) {
             System.out.println("18 is enough");
-        } else {
-            System.out.println(name + "! There is not message for you age.");
+        }
+        if (age >=18 && age < 20)
+         System.out.println(name + "! There is not message for your age.");
         }
     }
-}
