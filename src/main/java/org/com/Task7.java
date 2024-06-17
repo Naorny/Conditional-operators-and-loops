@@ -1,5 +1,6 @@
 package org.com;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Task7 {
@@ -10,15 +11,23 @@ public class Task7 {
         // the message "Guessed :)" will be displayed and the program will terminate.
         // If after 7 attempts the number is not guessed,
         // the message "Did not guess :(" is displayed and the program terminates.
+        // You use a code to generate the secret number:
+        // Random random = new Random();
+        // int secret;
+        // Generate a number from 0 to 20
+        // secret = random.nextInt(20 + 1);
 
         Scanner scan = new Scanner(System.in);
-        int test_number = 3;
+        Random random = new Random();
+        int secret;
+        secret = random.nextInt(20 + 1);
+        //System.out.println("The secret number is : " + secret);
 
         for (int i = 1; i <= 7; i++) {
             System.out.print("Please enter your " + i + " number: ");
             int number = scan.nextInt();
-            if (number != test_number) {
-                if (number > test_number) {
+            if (number != secret) {
+                if (number > secret) {
                     System.out.println("Much");
                 }else{
                     System.out.println("Little");
