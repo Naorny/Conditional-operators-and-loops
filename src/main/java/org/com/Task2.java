@@ -5,31 +5,24 @@ import java.util.Scanner;
 public class Task2 {
     public static void main(String[] args) {
         //2. Input four numbers from the keyboard, and display the maximum of them.
+        int[] numbers = new int[4];
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter the 1st number: ");
-        int a = scan.nextInt();
-        System.out.print("Enter the 2nd number: ");
-        int b = scan.nextInt();
-        System.out.print("Enter the 3d number: ");
-        int c = scan.nextInt();
-        System.out.print("Enter the 4th number: ");
-        int d = scan.nextInt();
+        System.out.println("Enter 4 elements:");
 
-        int sum1 = a+b+c;
-        int sum2 = a+b;
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = Integer.parseInt(scan.next());
+        }
 
-        if (d > sum1) {
-            System.out.println("Maximum is " + d);
-        }else{
-            if (c > sum2) {
-                System.out.println("Maximum is " + c);
-            }else{
-                if (a>b){
-                    System.out.println("Maximum is " + a);
-                }else{
-                    System.out.println("Maximum is " + b);
-                }
-        }} }}
+        int max = numbers[0];
+        for (int i = 0; i < numbers.length; i++) {
+           if (numbers[i] > max) {
+                max = numbers[i];
+            }
+        }
+        System.out.println("Max element is: " + max);
+    }
+}
+
 
 
 
