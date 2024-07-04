@@ -13,23 +13,30 @@ public class Task3 {
         System.out.print("Enter the 3d number: ");
         int c = scan.nextInt();
 
-        int sum1 = a + b;
-
-        if (c > sum1) {
-            if (a > b){
-            System.out.println("Descending order of numbers: " + c + " " + a + " " + b);
-            }else{
+        if (c >= a && c >= b) {
+            if (a >= b) {
+                System.out.println("Descending order of numbers: " + c + " " + a + " " + b);
+            } else {
                 System.out.println("Descending order of numbers: " + c + " " + b + " " + a);
-            }}else if (b > a && a > c){
+            }
+        }
+
+        if (b >= a && b >= c) {
+            if (a >= c) {
                 System.out.println("Descending order of numbers: " + b + " " + a + " " + c);
-            }else if (b > c && c > a){
+            } else {
                 System.out.println("Descending order of numbers: " + b + " " + c + " " + a);
-            }else if (a > b && b > c){
+            }
+        }
+
+        if (a >= b && a >= c) {
+            if (b >= c) {
                 System.out.println("Descending order of numbers: " + a + " " + b + " " + c);
-            }else if (a > b && c > b){
+            } else {
                 System.out.println("Descending order of numbers: " + a + " " + c + " " + b);
             }
         }
     }
+}
 
 
